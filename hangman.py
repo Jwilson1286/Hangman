@@ -1,4 +1,5 @@
 import random
+import cowsay
 
 WORDS = ['python','jumble','football','game','computer', ]
 
@@ -37,7 +38,7 @@ while turns > 0:
             failed += 1
     #if failed equales zero print you won
     if failed ==0:
-        print('You Won')
+        cowsay.cow('You Won')
 
         #exit the script
         break
